@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9fb;
+  color: #333;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #4b0082;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  color: #6a1b9a;
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #6a1b9a;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #512da8;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Social Links */
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #303f9f;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form */
+form {
+  margin-top: 15px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3949ab;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #303f9f;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
